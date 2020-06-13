@@ -1,0 +1,28 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Video Component</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="video-grabber-body">
+  <div id="topbar">
+    <input type="text" id="urlForVideo" name="Video URL" placeholder="Paste your URL here and press enter.." autofocus>
+      <button id="snapbutton" class="dissabled-buttons">Snap Photo</button>
+      <button id="downloadbtn" class="dissabled-buttons">Download Button</button>
+  </div>
+  <div id="content">
+      <video id="video-component" controls="false" crossorigin="anonymous">
+          <source src="" type="video/mp4"></source>
+        </video>
+        <canvas id="canvas"></canvas>
+      <a href="" download id="downloadImageHref">
+          <img src="./img/image-placeholder.jpg" id="mirror" class="canvas__mirror" crossorigin="anonymous"/>
+      </a>
+  </div>
+
+
+
+<script type="text/javascript" src="js/video-grabber.js"></script>
+
+</body>
+</html>
