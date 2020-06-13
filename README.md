@@ -1,4 +1,4 @@
-# video-screen-grabber
+# Video Screen Grabber
 Take screen captures of any frame of a video in just 3 clicks.
 
 1. Add any url in the text box and hit enter
